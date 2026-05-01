@@ -3,7 +3,7 @@
 
 const { SQSClient, SendMessageCommand } = require("@aws-sdk/client-sqs");
 
-const client = new SQSClient({ region: "ap-south-1" });
+const client = new SQSClient({ region: "us-east-1" });
 
 const QUEUE_URL = process.env.SQS_QUEUE_URL; // export SQS_QUEUE_URL=<your-queue-url>
 
