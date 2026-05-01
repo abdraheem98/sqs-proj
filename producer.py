@@ -8,7 +8,7 @@ import random
 import os
 from datetime import datetime, timezone
 
-sqs = boto3.client("sqs", region_name="ap-south-1")
+sqs = boto3.client("sqs", region_name="us-east-1")
 
 QUEUE_URL = os.environ["SQS_QUEUE_URL"]
 
